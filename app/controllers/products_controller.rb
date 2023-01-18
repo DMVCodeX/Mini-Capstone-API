@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   def all_products
-    product_info = @product
-    render template: "contacts/show"
+    @products = Product.all
+    render template: "products/index"
   end
 end
