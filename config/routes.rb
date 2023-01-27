@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   delete "/products/:id" => "products#destory"
 
   post "/users" => "users#create"
+
+  post "sessions" => "sessions#create"
 end
