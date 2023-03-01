@@ -39,7 +39,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_response 422
 
     post "/products.json"
-    assert_response 422
+    assert_response 401
   end
 
   test "update" do
