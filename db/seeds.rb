@@ -14,9 +14,15 @@
 
 # Product.create(name: "Double Chocolate Chip Cookie", price: 3, description: "Double chocolate chip cookies are a variation of chocolate chip cookies that contain both chocolate chips and cocoa powder, resulting in a richer, more intense chocolate flavor. They are soft, chewy, and loaded with chocolate. They are a classic and popular treat among cookie lovers.")
 
-# Image.create(url: "", product_id: 1)
-# Image.create(url: "", product_id: 1)
-# Image.create(url: "", product_id: 1)
-# Image.create(url: "", product_id: 1)
-# Image.create(url: "", product_id: 1)
-Image.create(url: "", product_id: 1)
+# Category.create(name: "chocolate")
+# Category.create(name: "nuts")
+# Category.create(name: "pastry")
+# Category.create(name: "fruit")
+# Category.create(name: "vegan")
+# Category.create(name: "gluten free")
+
+# CategoryProduct.create!(category_id: 1, product_id: 1)
+# CategoryProduct.create!(category_id: 1, product_id: 1)
+# CategoryProduct.create!(category_id: 1, product_id: 1)
+# CategoryProduct.create!(category_id: 1, product_id: 1)
+# CategoryProduct.create!(category_id: 1, product_id: 1)
